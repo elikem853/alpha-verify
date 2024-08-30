@@ -27,10 +27,10 @@ const ValuePreposition = () => {
           {valueProps.map((prop, index) => (
             <div 
               key={index} 
-              className="flex flex-col items-center text-center p-6 bg-transparent border border-blue-400 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg hover:border-secondary/40 hover:-translate-y-1"
+              className="flex flex-col items-center text-center p-6 bg-transparent border border-primary rounded-lg shadow-md transition-all duration-300 hover:shadow-lg hover:border-secondary/40 hover:-translate-y-1"
             >
               <div className="bg-primary/10 p-3 rounded-full mb-4">
-                <prop.icon className="h-12 w-12 text-white" />
+                <prop.icon className="h-12 w-12 text-green-400" />
               </div>
               <h3 className="text-xl font-semibold mb-2">{prop.title}</h3>
               <p className="text-muted-foreground">{prop.description}</p>
